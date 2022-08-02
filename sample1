@@ -1,0 +1,8 @@
+def Sm(p,q,r):
+    if p<q and p<r:
+        print(p)
+    elif q<r:
+        return q
+    else:
+        return(r) 
+Sm(23,34,55)           
